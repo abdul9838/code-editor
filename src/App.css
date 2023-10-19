@@ -1,0 +1,100 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+/* Header.css */
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #333; /* Background color for the header */
+  color: #fff; /* Text color for the header */
+}
+
+.logo img {
+  width: 30px; /* Adjust the width of the logo image */
+  height: 30px; /* Adjust the height of the logo image */
+  margin-right: 10px; /* Add spacing between the image and text */
+}
+
+.logo h3 {
+  font-size: 1.5rem; /* Adjust the font size of the header text */
+  margin: 0; /* Remove any default margin to align text properly */
+}
+/* Code.css */
+.code-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.copy-box {
+  border: 1px solid #ccc;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.copy-box .div{
+  display: flex;
+  justify-content: space-between;
+}
+.copy-box .div div{
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+.copy-box img{
+  height: 30px;
+}
+.copy-box img {
+  max-width: 50px; /* Adjust the maximum width of the logo image */
+  margin-right: 10px; /* Add spacing between the image and heading */
+}
+
+.box-heading {
+  font-size: 1.2rem; /* Adjust the font size of the heading */
+}
+
+.copy-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.copy-button:hover {
+  background-color: #0056b3;
+}
+
+.text-area {
+  flex: 1; /* Take up remaining horizontal space */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  min-width: 100%; /* Ensure it takes full width */
+  max-width: 30vw; /* Ensure it takes full width */
+  min-height: 35vh;
+  max-height: 35vh;
+}
+/* You can add more styles as needed for the Code component */
+/* Output.css */
+iframe {
+  width: 100%;
+  height: 400px; /* Adjust the height of the iframe as needed */
+  max-height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* You can add more styles as needed for the iframe */
+button {
+  display: flex; justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+button img{
+  height: 20px;
+}
